@@ -1,5 +1,5 @@
 const Courses = require("../models/Course");
-const Category = require("../models/category");
+const Category = require("../models/Category");
 const User = require("../models/User");
 const { imageuploadetocloudinary } = require("../utils/imageuploader");
 const Section = require("../models/Section");
