@@ -26,7 +26,7 @@ app.use(
 	cors({
 	 origin: [
       "http://localhost:3000",  // for local development
-      "https://codeelevate.netlify.app/"  // for production on Netlify
+       "https://guileless-sfogliatella-c99475.netlify.app" // for production on Netlify
     ],
 	  credentials: true,
 	})
