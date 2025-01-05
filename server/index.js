@@ -24,9 +24,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-	 origin: [
+	origin: [
       "http://localhost:3000",  // for local development
-       "https://guileless-sfogliatella-c99475.netlify.app" // for production on Netlify
+      "https://guileless-sfogliatella-c99475.netlify.app" // for production on Netlify
     ],
 	  credentials: true,
 	})
