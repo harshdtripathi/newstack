@@ -24,7 +24,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-	  origin: "http://localhost:3000", 
+	 origin: [
+      "http://localhost:3000",  // for local development
+      "https://majestic-kheer-8a0731.netlify.app"  // for production on Netlify
+    ],
 	  credentials: true,
 	})
   );
